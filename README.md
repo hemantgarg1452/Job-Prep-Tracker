@@ -36,23 +36,9 @@ So, I built a **real-world, modular, and automated job-prep system** to replace 
 ---
 
 ## 🔧 Architecture Overview
+<img width="433" height="406" alt="Screenshot 2025-09-07 135206" src="https://github.com/user-attachments/assets/4ef0d76d-8e13-489b-9196-ce1b85b2c95c" />
 
-📦 Job Preparation Tracker  
-├── 🌐 API Gateway  
-│   └── Routes requests to microservices  
-├── 🧠 DSA Microservice  
-│   ├── REST APIs for problem logging, filtering  
-│   ├── Smart revision logic (3-5-9 spaced repetition)  
-│   └── 🧾 MySQL (DSA DB)  
-├── 🧳 Job Microservice  
-│   ├── JD parsing using JSoup  
-│   ├── Auto-status update & filtering  
-│   └── 🧾 MySQL (Job DB)  
-├── 📄 Resume Microservice  
-│   ├── Resume tagging & versioning  
-│   └── 🧾 MySQL (Resume DB)  
-└── 🖥️ Frontend (Planned - React)  
-    └── Unified dashboard for all modules
+
 
 
 ### ✅ Design Highlights
